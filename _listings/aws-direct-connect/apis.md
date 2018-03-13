@@ -36,7 +36,7 @@ apis:
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/faces/master/_listings/aws-direct-connect/action-allocatepublicvirtualinterface-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/faces/master/_listings/aws-direct-connect/action-confirmprivatevirtualinterface-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
