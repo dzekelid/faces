@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AllocatePublicVirtualInterface&k=1:
+  /?Action=AllocatePublicVirtualInterface:
     get:
       summary: ' Allocate Public Virtual Interface '
       description: Provisions a public virtual interface to be owned by a different
