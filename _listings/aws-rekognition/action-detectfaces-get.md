@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetectFaces&k=1:
+  /?Action=DetectFaces:
     get:
       summary: ' Detect Faces '
       description: Detects faces within an image (JPEG or PNG) that is provided as
