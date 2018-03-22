@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SearchFacesByImage&k=1:
+  /?Action=SearchFacesByImage:
     get:
       summary: ' Search Faces By Image '
       description: |-
