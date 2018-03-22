@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVirtualInterface&k=1:
+  /?Action=DeleteVirtualInterface:
     get:
       summary: ' Delete Virtual Interface '
       description: Deletes a virtual interface
