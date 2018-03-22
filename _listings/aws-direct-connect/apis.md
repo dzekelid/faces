@@ -22,9 +22,9 @@ tags:
 - Networks
 - Network
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/faces/master/_listings/aws-direct-connect/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Direct Connect API
@@ -36,7 +36,7 @@ apis:
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/faces/master/_listings/aws-direct-connect/action-describevirtualinterfaces-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-allocateprivatevirtualinterface-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
