@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListFaces&k=1:
+  /?Action=ListFaces:
     get:
       summary: ' List Faces '
       description: Returns metadata for faces in the specified collection
