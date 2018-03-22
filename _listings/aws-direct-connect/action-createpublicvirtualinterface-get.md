@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreatePublicVirtualInterface&k=1:
+  /?Action=CreatePublicVirtualInterface:
     get:
       summary: ' Create Public Virtual Interface '
       description: Creates a new public virtual interface
