@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteFaces&k=1:
+  /?Action=DeleteFaces:
     get:
       summary: ' Delete Faces '
       description: Deletes faces from a collection
