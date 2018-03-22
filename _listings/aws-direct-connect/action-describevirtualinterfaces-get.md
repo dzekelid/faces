@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVirtualInterfaces&k=1:
+  /?Action=DescribeVirtualInterfaces:
     get:
       summary: ' Describe Virtual Interfaces '
       description: Displays all virtual interfaces for an AWS account
