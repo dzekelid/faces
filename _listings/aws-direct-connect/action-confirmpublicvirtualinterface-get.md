@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ConfirmPublicVirtualInterface&k=1:
+  /?Action=ConfirmPublicVirtualInterface:
     get:
       summary: ' Confirm Public Virtual Interface '
       description: Accept ownership of a public virtual interface created by another
