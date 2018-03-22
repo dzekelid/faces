@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CompareFaces&k=1:
+  /?Action=CompareFaces:
     get:
       summary: ' Compare Faces '
       description: |-
