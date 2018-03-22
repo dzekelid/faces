@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=IndexFaces&k=1:
+  /?Action=IndexFaces:
     get:
       summary: ' Index Faces '
       description: Detects faces in the input image and adds them to the specified
