@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SearchFaces&k=1:
+  /?Action=SearchFaces:
     get:
       summary: ' Search Faces '
       description: For a given input face ID, searches for matching faces in the collection
