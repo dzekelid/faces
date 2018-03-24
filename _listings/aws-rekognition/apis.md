@@ -36,7 +36,7 @@ apis:
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/action-comparefaces-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/action-deletefaces-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
