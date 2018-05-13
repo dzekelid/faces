@@ -1,11 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: NetworkManagementClient
-  description: The Microsoft Azure Network management API provides a RESTful set of
-    web services that interact with Microsoft Azure Networks service to manage your
-    network resources. The API has entities that capture the relationship between
-    an end user and the Microsoft Azure Networks service.
+  title: Azure Virtual Network API Network Interfaces List Virtual Machine Scale Set
+    VMNetwork Interfaces
+  description: Gets information about all network interfaces in a virtual machine
+    in a virtual machine scale set.
   version: 1.0.0
 host: management.azure.com
 basePath: /
