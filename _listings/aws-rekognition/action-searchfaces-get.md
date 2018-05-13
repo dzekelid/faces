@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API Search Faces
   version: 1.0.0
+  description: For a given input face ID, searches for matching faces in the collection
+    the face belongs to.
 schemes:
 - http
 produces:
