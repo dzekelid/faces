@@ -27,17 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-compute-virtualmachinescalesets-virtualmachinescalesetname-virtualmachines-virtualmachineindex-networkinterfaces-networkinterfacename-get.md
-- name: Azure Virtual Network API Network Interfaces Get Effective Route Table
-  description: Gets all route tables applied to a network interface.
+- name: Azure Virtual Network API Network Interfaces List Effective Network Security
+    Groups
+  description: Gets all network security groups applied to a network interface.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: http:://management.azure.com//
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-networkinterfaces-networkinterfacename-effectiveroutetable-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-networkinterfaces-networkinterfacename-effectivenetworksecuritygroups-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-networkinterfaces-networkinterfacename-effectiveroutetable-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-networkinterfaces-networkinterfacename-effectivenetworksecuritygroups-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
