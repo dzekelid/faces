@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API Delete Faces
   version: 1.0.0
+  description: Deletes faces from a collection.
 schemes:
 - http
 produces:
