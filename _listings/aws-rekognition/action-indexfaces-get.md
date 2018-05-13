@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API Index Faces
   version: 1.0.0
+  description: Detects faces in the input image and adds them to the specified collection.
 schemes:
 - http
 produces:
