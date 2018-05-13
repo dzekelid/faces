@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Describe Virtual Interfaces
   version: 1.0.0
+  description: Displays all virtual interfaces for an AWS account.
 schemes:
 - http
 produces:
