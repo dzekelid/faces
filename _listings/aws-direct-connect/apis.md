@@ -37,15 +37,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-describevirtualinterfaces-get.md
-- name: AWS Direct Connect API Allocate Public Virtual Interface
-  description: Provisions a public virtual interface to be owned by a different customer.
+- name: AWS Direct Connect API Confirm Private Virtual Interface
+  description: Accept ownership of a private virtual interface created by another
+    customer.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
   humanURL: https://aws.amazon.com/directconnect/
   baseURL: http:://{host}//
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-allocatepublicvirtualinterface-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-confirmprivatevirtualinterface-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
