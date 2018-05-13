@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-describevirtualinterfaces-get.md
-- name: AWS Direct Connect API Create Private Virtual Interface
-  description: Creates a new private virtual interface.
+- name: AWS Direct Connect API Create Public Virtual Interface
+  description: Creates a new public virtual interface.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
   humanURL: https://aws.amazon.com/directconnect/
   baseURL: http:://{host}//
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-createprivatevirtualinterface-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-createpublicvirtualinterface-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
