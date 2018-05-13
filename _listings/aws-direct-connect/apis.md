@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-describevirtualinterfaces-get.md
-- name: AWS Direct Connect API Delete Virtual Interface
-  description: Deletes a virtual interface.
+- name: AWS Direct Connect API Describe Virtual Interfaces
+  description: Displays all virtual interfaces for an AWS account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
   humanURL: https://aws.amazon.com/directconnect/
   baseURL: http:://{host}//
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-deletevirtualinterface-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-describevirtualinterfaces-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
