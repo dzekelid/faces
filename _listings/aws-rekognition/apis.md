@@ -37,17 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/action-searchfacesbyimage-get.md
-- name: AWS Rekognition API Compare Faces
-  description: |-
-    Compares a face in the source input image with
-          each face detected in the target input image.
+- name: AWS Rekognition API Delete Faces
+  description: Deletes faces from a collection.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: http:://{host}//
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/action-comparefaces-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/action-deletefaces-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
