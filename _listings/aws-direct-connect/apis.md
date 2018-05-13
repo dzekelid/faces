@@ -37,7 +37,36 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-describevirtualinterfaces-get.md
+- name: AWS Direct Connect API Allocate Private Virtual Interface
+  description: Provisions a private virtual interface to be owned by a different customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: http:://{host}//
+  tags: Faces
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-direct-connect/action-allocateprivatevirtualinterface-get.md
 x-common:
+- type: x-change-log
+  url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
+- type: x-console
+  url: https://console.aws.amazon.com/directconnect/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/directconnect/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/directconnect/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=126
+- type: x-getting-started
+  url: https://aws.amazon.com/directconnect/getting-started/
+- type: x-partner-bundles
+  url: ttps://aws.amazon.com/directconnect/directconnectbundles/
+- type: x-partners
+  url: https://aws.amazon.com/directconnect/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/directconnect/pricing/
+- type: x-website
+  url: https://aws.amazon.com/directconnect/
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
 - type: x-console
