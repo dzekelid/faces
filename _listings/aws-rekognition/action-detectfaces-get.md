@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API Detect Faces
   version: 1.0.0
+  description: Detects faces within an image (JPEG or PNG) that is provided as input.
 schemes:
 - http
 produces:
