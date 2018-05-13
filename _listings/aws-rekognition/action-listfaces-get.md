@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API List Faces
   version: 1.0.0
+  description: Returns metadata for faces in the specified collection.
 schemes:
 - http
 produces:
