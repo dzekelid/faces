@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Confirm Public Virtual Interface
   version: 1.0.0
+  description: Accept ownership of a public virtual interface created by another customer.
 schemes:
 - http
 produces:
