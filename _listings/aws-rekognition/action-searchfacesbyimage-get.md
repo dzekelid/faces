@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API Search Faces By Image
   version: 1.0.0
+  description: |-
+    For a given input image, first detects the largest face in the image, and
+          then searches the specified collection for matching faces.
 schemes:
 - http
 produces:
