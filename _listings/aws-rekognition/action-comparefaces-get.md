@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API Compare Faces
   version: 1.0.0
+  description: |-
+    Compares a face in the source input image with
+          each face detected in the target input image.
 schemes:
 - http
 produces:
