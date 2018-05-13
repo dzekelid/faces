@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-compute-virtualmachinescalesets-virtualmachinescalesetname-virtualmachines-virtualmachineindex-networkinterfaces-networkinterfacename-get.md
-- name: Azure Virtual Network API Network Interfaces Delete
-  description: Deletes the specified network interface.
+- name: Azure Virtual Network API Network Interfaces Get
+  description: Gets information about the specified network interface.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: http:://management.azure.com//
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-networkinterfaces-networkinterfacename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-networkinterfaces-networkinterfacename-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-networkinterfaces-networkinterfacename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-networkinterfaces-networkinterfacename-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
