@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Allocate Public Virtual Interface
   version: 1.0.0
+  description: Provisions a public virtual interface to be owned by a different customer.
 schemes:
 - http
 produces:
