@@ -37,7 +37,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/action-searchfacesbyimage-get.md
+- name: AWS Rekognition API Compare Faces
+  description: |-
+    Compares a face in the source input image with
+          each face detected in the target input image.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
+  humanURL: https://aws.amazon.com/rekognition/
+  baseURL: http:://{host}//
+  tags: Faces
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/action-comparefaces-get.md
 x-common:
+- type: x-blog
+  url: https://aws.amazon.com/rekognition/developers/#blog-posts
+- type: x-customers
+  url: https://aws.amazon.com/rekognition/customers/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/rekognition/latest/dg/API_Reference.htm
+- type: x-faq
+  url: https://aws.amazon.com/rekognition/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/rekognition/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/rekognition/pricing/
+- type: x-sdk
+  url: https://aws.amazon.com/rekognition/developers/#sdk
+- type: x-website
+  url: https://aws.amazon.com/rekognition/
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
 - type: x-customers
