@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/action-searchfacesbyimage-get.md
-- name: AWS Rekognition API Detect Faces
-  description: Detects faces within an image (JPEG or PNG) that is provided as input.
+- name: AWS Rekognition API Index Faces
+  description: Detects faces in the input image and adds them to the specified collection.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: http:://{host}//
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/action-detectfaces-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/action-indexfaces-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
