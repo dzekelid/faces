@@ -1,5 +1,6 @@
 ---
 name: Azure Virtual Network
+x-slug: azure-virtual-network
 description: Azure Virtual Network lets you create private networks in the cloud with
   full control over IP addresses, DNS servers, security rules, and traffic flows.
   Securely connect a virtual network to on-premises networks by using a VPN tunnel,
@@ -7,47 +8,149 @@ description: Azure Virtual Network lets you create private networks in the cloud
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
 x-kinRank: "10"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Network
-- Microsoft
-created: "2018-03-23"
-modified: "2018-03-23"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/apis.yaml
+tags: Faces
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Azure Virtual Network API Network Interfaces Delete
+  x-api-slug: azure-virtual-network-api
+  description: Deletes the specified network interface.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkInterfaces/{networkInterfaceName}
+  tags: Network Interfaces
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfacesnetworkinterfacename-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfacesnetworkinterfacename-delete-openapi.md
+- name: Azure Virtual Network API Network Interfaces Get
+  x-api-slug: azure-virtual-network-api
+  description: Gets information about the specified network interface.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkInterfaces/{networkInterfaceName}
+  tags: Network Interfaces
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfacesnetworkinterfacename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfacesnetworkinterfacename-get-openapi.md
+- name: Azure Virtual Network API Network Interfaces Create Or Update
+  x-api-slug: azure-virtual-network-api
+  description: Creates or updates a network interface.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkInterfaces/{networkInterfaceName}
+  tags: Network Interfaces
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfacesnetworkinterfacename-put-openapi.md
+- name: Azure Virtual Network API Network Interfaces List All
+  x-api-slug: azure-virtual-network-api
+  description: Gets all network interfaces in a subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/providers/Microsoft.Network/networkInterfaces
+  tags: Network Interfaces
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidprovidersmicrosoftnetworknetworkinterfaces-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidprovidersmicrosoftnetworknetworkinterfaces-get-openapi.md
+- name: Azure Virtual Network API Network Interfaces List
+  x-api-slug: azure-virtual-network-api
+  description: Gets all network interfaces in a resource group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkInterfaces
+  tags: Network Interfaces
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfaces-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfaces-get-openapi.md
+- name: Azure Virtual Network API Network Interfaces Get Effective Route Table
+  x-api-slug: azure-virtual-network-api
+  description: Gets all route tables applied to a network interface.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkInterfaces/{networkInterfaceName}/effectiveRouteTable
+  tags: Network Interfaces
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfacesnetworkinterfacenameeffectiveroutetable-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfacesnetworkinterfacenameeffectiveroutetable-post-openapi.md
+- name: Azure Virtual Network API Network Interfaces List Effective Network Security
+    Groups
+  x-api-slug: azure-virtual-network-api
+  description: Gets all network security groups applied to a network interface.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkInterfaces/{networkInterfaceName}/effectiveNetworkSecurityGroups
+  tags: Network Interfaces
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfacesnetworkinterfacenameeffectivenetworksecuritygroups-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworknetworkinterfacesnetworkinterfacenameeffectivenetworksecuritygroups-post-openapi.md
+- name: Azure Virtual Network API Network Interfaces List Virtual Machine Scale Set
+    VMNetwork Interfaces
+  x-api-slug: azure-virtual-network-api
+  description: Gets information about all network interfaces in a virtual machine
+    in a virtual machine scale set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.Compute/virtualMachineScaleSets/{virtualMachineScaleSetName}/virtualMachines/{virtualmachineIndex}/networkInterfaces
+  tags: Network Interfaces
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcomputevirtualmachinescalesetsvirtualmachinescalesetnamevirtualmachinesvirtualmachineindexnetworkinterfaces-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcomputevirtualmachinescalesetsvirtualmachinescalesetnamevirtualmachinesvirtualmachineindexnetworkinterfaces-get-openapi.md
+- name: Azure Virtual Network API Network Interfaces List Virtual Machine Scale Set
+    Network Interfaces
+  x-api-slug: azure-virtual-network-api
+  description: Gets all network interfaces in a virtual machine scale set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.Compute/virtualMachineScaleSets/{virtualMachineScaleSetName}/networkInterfaces
+  tags: Network Interfaces
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcomputevirtualmachinescalesetsvirtualmachinescalesetnamenetworkinterfaces-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcomputevirtualmachinescalesetsvirtualmachinescalesetnamenetworkinterfaces-get-openapi.md
+- name: Azure Virtual Network API Network Interfaces Get Virtual Machine Scale Set
+    Network Interface
+  x-api-slug: azure-virtual-network-api
+  description: Get the specified network interface in a virtual machine scale set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.Compute/virtualMachineScaleSets/{virtualMachineScaleSetName}/virtualMachines/{virtualmachineIndex}/networkInterfaces/{networkInterfaceName}
+  tags: Network Interfaces
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcomputevirtualmachinescalesetsvirtualmachinescalesetnamevirtualmachinesvirtualmachineindexnetworkinterfacesnetworkinterfacename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcomputevirtualmachinescalesetsvirtualmachinescalesetnamevirtualmachinesvirtualmachineindexnetworkinterfacesnetworkinterfacename-get-openapi.md
 - name: Azure Virtual Network API
+  x-api-slug: azure-virtual-network-api
   description: Azure Virtual Network lets you create private networks in the cloud
     with full control over IP addresses, DNS servers, security rules, and traffic
-    flows
+    flows. Securely connect a virtual network to on-premises networks by using a VPN
+    tunnel, or connect privately by using the ExpressRoute service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
-  humanURL: ""
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: ://management.azure.com//
   tags: Faces
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-compute-virtualmachinescalesets-virtualmachinescalesetname-virtualmachines-virtualmachineindex-networkinterfaces-networkinterfacename-get.md
-- name: Azure Virtual Network API Network Interfaces Get Virtual Machine Scale Set
-    Network Interface
-  description: Get the specified network interface in a virtual machine scale set.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
-  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
-  baseURL: http:://management.azure.com//
-  tags: Faces
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-compute-virtualmachinescalesets-virtualmachinescalesetname-virtualmachines-virtualmachineindex-networkinterfaces-networkinterfacename-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-compute-virtualmachinescalesets-virtualmachinescalesetname-virtualmachines-virtualmachineindex-networkinterfaces-networkinterfacename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/azure-virtual-network/openapi.md
 x-common:
-- type: x-documentation
-  url: https://docs.microsoft.com/en-us/azure/virtual-network/
-- type: x-pricing
-  url: https://azure.microsoft.com/en-us/pricing/details/virtual-network/
-- type: x-status
-  url: https://azure.microsoft.com/en-us/status/
-- type: x-website
-  url: https://azure.microsoft.com/en-us/services/virtual-network/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
 - type: x-pricing
