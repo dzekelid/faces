@@ -16,10 +16,10 @@ description: Amazon Rekognition is a service that makes it easy to add image ana
   and there are no upfront commitments.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Faces
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/apis.md
 specificationVersion: "0.14"
 apis:
@@ -31,7 +31,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: ://///?Action=CompareFaces
-  tags: Faces
+  tags: Machine Learning,Faces
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/actioncomparefaces-get-openapi.md
@@ -41,7 +41,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: ://///?Action=DeleteFaces
-  tags: Faces
+  tags: Machine Learning,Faces
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/actiondeletefaces-get-openapi.md
@@ -51,7 +51,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: ://///?Action=DetectFaces
-  tags: Faces
+  tags: Machine Learning,Faces
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/actiondetectfaces-get-openapi.md
@@ -61,7 +61,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: ://///?Action=IndexFaces
-  tags: Faces
+  tags: Machine Learning,Faces
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/actionindexfaces-get-openapi.md
@@ -71,7 +71,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: ://///?Action=ListFaces
-  tags: Faces
+  tags: Machine Learning,Faces
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/actionlistfaces-get-openapi.md
@@ -82,7 +82,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: ://///?Action=SearchFaces
-  tags: Faces
+  tags: Machine Learning,Faces
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/actionsearchfaces-get-openapi.md
@@ -94,7 +94,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: ://///?Action=SearchFacesByImage
-  tags: Faces
+  tags: Machine Learning,Faces
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/faces/master/_listings/aws-rekognition/actionsearchfacesbyimage-get-openapi.md

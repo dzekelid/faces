@@ -41,6 +41,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=DeleteFaces:
     get:
@@ -61,6 +62,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=DetectFaces:
     get:
@@ -82,6 +84,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=IndexFaces:
     get:
@@ -112,6 +115,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=ListFaces:
     get:
@@ -138,6 +142,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=SearchFaces:
     get:
@@ -168,6 +173,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=SearchFacesByImage:
     get:
@@ -199,6 +205,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
 x-streamrank:
   polling_total_time_average: 0

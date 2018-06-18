@@ -1,10 +1,12 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Virtual Network
-x-complete: 1
+x-complete: 0
 info:
-  title: NetworkManagementClient
-  description: the-microsoft-azure-network-management-api-provides-a-restful-set-of-web-services-that-interact-with-microsoft-azure-networks-service-to-manage-your-network-resources--the-api-has-entities-that-capture-the-relationship-between-an-end-user-and-the-microsoft-azure-networks-service-
+  title: Azure Virtual Network API Network Interfaces List Virtual Machine Scale Set
+    VMNetwork Interfaces
+  description: Gets information about all network interfaces in a virtual machine
+    in a virtual machine scale set.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -180,60 +182,17 @@ paths:
           description: OK
       tags:
       - Network Interfaces
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.Compute/virtualMachineScaleSets/{virtualMachineScaleSetName}/networkInterfaces
-  : get:
-      summary: Network Interfaces List Virtual Machine Scale Set Network Interfaces
-      description: Gets all network interfaces in a virtual machine scale set.
-      operationId: NetworkInterfaces_ListVirtualMachineScaleSetNetworkInterfaces
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-computevirtualmachinescalesetsvirtualmachinescalesetnamenetworkinterfaces-get
-      parameters:
-      - in: query
-        name: api-version
-        description: Client API version
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      - in: path
-        name: virtualMachineScaleSetName
-        description: The name of the virtual machine scale set
-      responses:
-        200:
-          description: OK
-      tags:
-      - Network Interfaces
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.Compute/virtualMachineScaleSets/{virtualMachineScaleSetName}/virtualMachines/{virtualmachineIndex}/networkInterfaces/{networkInterfaceName}
-  : get:
-      summary: Network Interfaces Get Virtual Machine Scale Set Network Interface
-      description: Get the specified network interface in a virtual machine scale
-        set.
-      operationId: NetworkInterfaces_GetVirtualMachineScaleSetNetworkInterface
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-computevirtualmachinescalesetsvirtualmachinescalesetnamevirtualmachinesvirtualmachineindexnetworkinterfacesnetworkinterfacename-get
-      parameters:
-      - in: query
-        name: $expand
-        description: Expands referenced resources
-      - in: query
-        name: api-version
-        description: Client API version
-      - in: path
-        name: networkInterfaceName
-        description: The name of the network interface
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      - in: path
-        name: virtualmachineIndex
-        description: The virtual machine index
-      - in: path
-        name: virtualMachineScaleSetName
-        description: The name of the virtual machine scale set
-      responses:
-        200:
-          description: OK
-      tags:
-      - Network Interfaces
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
