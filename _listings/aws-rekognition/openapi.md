@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Rekognition
 x-complete: 1
@@ -204,4 +203,3 @@ paths:
       tags:
       - Machine Learning
       - Faces
----
